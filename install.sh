@@ -6,7 +6,7 @@
 set -euo pipefail
 
 APP_NAME="E-ADIS C-P"
-BASE="https://github.com/dzweben/eadis-releases/releases/download/v1.1.0"
+BASE="https://github.com/dzweben/eadis-releases/releases/download/v1.1.1"
 
 if [ "$(uname -s)" != "Darwin" ]; then
   echo "This installer is for macOS. On Windows, download the .exe installer from the site."
@@ -15,10 +15,10 @@ fi
 
 ARCH="$(uname -m)"
 if [ "$ARCH" = "arm64" ]; then
-  DMG_URL="$BASE/E-ADIS-C-P-1.1.0-arm64.dmg"
+  DMG_URL="$BASE/E-ADIS-C-P-1.1.1-arm64.dmg"
   echo "→ Detected Apple Silicon Mac"
 else
-  DMG_URL="$BASE/E-ADIS-C-P-1.1.0-x64.dmg"
+  DMG_URL="$BASE/E-ADIS-C-P-1.1.1-x64.dmg"
   echo "→ Detected Intel Mac"
 fi
 
