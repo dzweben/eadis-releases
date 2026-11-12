@@ -1,0 +1,21 @@
+{
+  "name": "E-ADIS C/P CAADC",
+  "short_name": "E-ADIS C/P CAADC",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fcfaf3",
+  "theme_color": "#102e2d",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
