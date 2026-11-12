@@ -4,9 +4,9 @@
 // it opens, and the manual. A new version is downloaded whole into its own
 // cache and checked; only then, at the next start of the app, does it take
 // over. The device never holds a page without the app file that page needs.
-const VERSION = "e626c7f6cb40";
-const PAGE_SHA256 = "7ca7ec78743b7772d474fd0411cdb6c47289f3537dafe8efe90cd589348b47fd";
-const APP = "app.fec556399cca.bin";
+const VERSION = "240e115a540f";
+const PAGE_SHA256 = "446dbdf153c2b70f9a15d098274a63e4f3f54baf4abf8d2a5d20a666e885341e";
+const APP = "app.6bd7b17d72a8.bin";
 const MANUAL = "manual.5180a2f36d0d.bin";
 const SMALL = ['manifest.webmanifest', 'apple-touch-icon.png', 'icon-512.png'];
 
